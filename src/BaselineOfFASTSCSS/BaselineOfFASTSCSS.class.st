@@ -1,6 +1,6 @@
 Class {
 	#name : 'BaselineOfFASTSCSS',
-	#superclass : 'Object',
+	#superclass : 'BaselineOf',
 	#category : 'BaselineOfFASTSCSS',
 	#package : 'BaselineOfFASTSCSS'
 }
