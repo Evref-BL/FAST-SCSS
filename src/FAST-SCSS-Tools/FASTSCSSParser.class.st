@@ -41,7 +41,7 @@ FASTSCSSParser >> importToFAST: tsTree usingSourceCode: aString [
 
 	| tsLanguage importer |
 	"needs cleaning"
-	tsLanguage := TSLanguage css.
+	tsLanguage := TSLanguage scss.
 	importer := TSFASTImporter new.
 	importer tsLanguage: tsLanguage.
 	importer languageName: 'SCSS'.
