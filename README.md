@@ -1,5 +1,8 @@
 # FAST-SCSS
 
+[![CI](https://github.com/Evref-BL/FAST-XML/actions/workflows/ci.yml/badge.svg)](https://github.com/Evref-BL/FAST-XML/actions/workflows/ci.yml)
+[![Coverage Status](https://coveralls.io/repos/github/Evref-BL/FAST-SCSS/badge.svg?branch=main)](https://coveralls.io/github/Evref-BL/FAST-SCSS?branch=main)
+
 FAST-SCSS is a recently created project that integrates with Moose and leverages the Tree-Sitter parser to analyze SCSS source code in Pharo.  
 
 ## Features  
@@ -39,15 +42,9 @@ res := FASTSCSSImporter new parse:  '$color: blue;
 
 ## NB
 
-The project is still at the very beginning. But at least now it can parse and generate a basic model of FASTSCSS.
-Still need to:
-- Reorder classes
-- Add new properties
-- Check traits
-- Add tests
+The project is updated starting October 5th 2026. It works on Moose 12+. The metamodel is complete following the description of tree sitter scss original repo. 
 
-Your contribution is more than welcome.
-Happy coding with SCSS :)
+If you think an update is recommended or new feature is requested ... Your contribution is more than welcome. Happy coding with Pharo and SCSS :)
 
 [fast]: https://github.com/moosetechnology/FAST 
 [pharo-tree-sitter]: https://github.com/Evref-BL/Pharo-Tree-Sitter
