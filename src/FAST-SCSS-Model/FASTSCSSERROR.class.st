@@ -34,3 +34,13 @@ FASTSCSSERROR class >> annotation [
 	<package: #'FAST-SCSS-Model'>
 	<generated>
 ]
+
+{ #category : 'accessing' }
+FASTSCSSERROR >> sourceText [
+
+	"^ self source"
+	^ self source ifNil: [
+		  self parentNode
+			  ifNotNil: [ :parent | parent sourceText ]
+			  ifNil: [ '' ] ]
+]
