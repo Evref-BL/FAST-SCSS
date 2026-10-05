@@ -9,8 +9,8 @@ Class {
 { #category : 'meta' }
 FASTSCSSStringValue class >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #StringValue super: #FASTSCSSEntity>
 	<package: #'FAST-SCSS-Model'>
 	<generated>
-	^ self
 ]

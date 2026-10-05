@@ -10,13 +10,17 @@ Class {
 
 { #category : 'accessing' }
 FASTSCSSModel class >> allSubmetamodelsPackagesNames [
+
+	<ignoreForCoverage>
 	<generated>
 	^ #(#'Moose-Query' #'Famix-Traits' #'FAST-Core-Model')
 ]
 
 { #category : 'meta' }
 FASTSCSSModel class >> annotation [
-	<FMClass: #FASTSCSSModel super: #MooseModel>
+
+	<ignoreForCoverage>
+	<FMClass: #Model super: #MooseModel>
 	<package: #'FAST-SCSS-Model'>
 	<generated>
 ]

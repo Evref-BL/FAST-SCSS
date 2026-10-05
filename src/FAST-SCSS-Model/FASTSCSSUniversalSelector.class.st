@@ -9,8 +9,8 @@ Class {
 { #category : 'meta' }
 FASTSCSSUniversalSelector class >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #UniversalSelector super: #FASTSCSSEntity>
 	<package: #'FAST-SCSS-Model'>
 	<generated>
-	^ self
 ]

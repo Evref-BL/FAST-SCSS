@@ -9,8 +9,8 @@ Class {
 { #category : 'meta' }
 FASTSCSSComment class >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #Comment super: #FASTSCSSEntity>
 	<package: #'FAST-SCSS-Model'>
 	<generated>
-	^ self
 ]

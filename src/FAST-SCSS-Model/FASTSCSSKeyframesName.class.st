@@ -9,8 +9,8 @@ Class {
 { #category : 'meta' }
 FASTSCSSKeyframesName class >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #KeyframesName super: #FASTSCSSEntity>
 	<package: #'FAST-SCSS-Model'>
 	<generated>
-	^ self
 ]

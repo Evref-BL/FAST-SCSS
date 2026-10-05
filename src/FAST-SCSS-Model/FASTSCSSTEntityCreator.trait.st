@@ -14,15 +14,16 @@ Trait {
 { #category : 'meta' }
 FASTSCSSTEntityCreator classSide >> annotation [
 
+	<ignoreForCoverage>
 	<FMClass: #TEntityCreator super: #Object>
 	<package: #'FAST-SCSS-Model'>
 	<generated>
-	^ self
 ]
 
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newAdjacentSiblingSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSAdjacentSiblingSelector new
 ]
@@ -30,6 +31,7 @@ FASTSCSSTEntityCreator >> newAdjacentSiblingSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newArgument [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSArgument new
 ]
@@ -37,6 +39,7 @@ FASTSCSSTEntityCreator >> newArgument [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newArguments [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSArguments new
 ]
@@ -44,6 +47,7 @@ FASTSCSSTEntityCreator >> newArguments [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newAtKeyword [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSAtKeyword new
 ]
@@ -51,6 +55,7 @@ FASTSCSSTEntityCreator >> newAtKeyword [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newAtRootStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSAtRootStatement new
 ]
@@ -58,6 +63,7 @@ FASTSCSSTEntityCreator >> newAtRootStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newAtRule [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSAtRule new
 ]
@@ -65,6 +71,7 @@ FASTSCSSTEntityCreator >> newAtRule [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newAttributeName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSAttributeName new
 ]
@@ -72,6 +79,7 @@ FASTSCSSTEntityCreator >> newAttributeName [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newAttributeSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSAttributeSelector new
 ]
@@ -79,6 +87,7 @@ FASTSCSSTEntityCreator >> newAttributeSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newBinaryExpression [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSBinaryExpression new
 ]
@@ -86,6 +95,7 @@ FASTSCSSTEntityCreator >> newBinaryExpression [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newBinaryQuery [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSBinaryQuery new
 ]
@@ -93,6 +103,7 @@ FASTSCSSTEntityCreator >> newBinaryQuery [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newBlock [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSBlock new
 ]
@@ -100,6 +111,7 @@ FASTSCSSTEntityCreator >> newBlock [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newCallExpression [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSCallExpression new
 ]
@@ -107,6 +119,7 @@ FASTSCSSTEntityCreator >> newCallExpression [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newCharsetStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSCharsetStatement new
 ]
@@ -114,6 +127,7 @@ FASTSCSSTEntityCreator >> newCharsetStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newChildSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSChildSelector new
 ]
@@ -121,6 +135,7 @@ FASTSCSSTEntityCreator >> newChildSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newClassName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSClassName new
 ]
@@ -128,6 +143,7 @@ FASTSCSSTEntityCreator >> newClassName [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newClassSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSClassSelector new
 ]
@@ -135,6 +151,7 @@ FASTSCSSTEntityCreator >> newClassSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newColorValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSColorValue new
 ]
@@ -142,6 +159,7 @@ FASTSCSSTEntityCreator >> newColorValue [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newComment [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSComment new
 ]
@@ -149,6 +167,7 @@ FASTSCSSTEntityCreator >> newComment [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newDebugStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSDebugStatement new
 ]
@@ -156,6 +175,7 @@ FASTSCSSTEntityCreator >> newDebugStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newDeclaration [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSDeclaration new
 ]
@@ -163,6 +183,7 @@ FASTSCSSTEntityCreator >> newDeclaration [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newDescendantSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSDescendantSelector new
 ]
@@ -170,6 +191,7 @@ FASTSCSSTEntityCreator >> newDescendantSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newERROR [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSERROR new
 ]
@@ -177,6 +199,7 @@ FASTSCSSTEntityCreator >> newERROR [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newEachStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSEachStatement new
 ]
@@ -184,6 +207,7 @@ FASTSCSSTEntityCreator >> newEachStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newElseClause [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSElseClause new
 ]
@@ -191,6 +215,7 @@ FASTSCSSTEntityCreator >> newElseClause [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newElseIfClause [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSElseIfClause new
 ]
@@ -198,6 +223,7 @@ FASTSCSSTEntityCreator >> newElseIfClause [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newErrorStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSErrorStatement new
 ]
@@ -205,6 +231,7 @@ FASTSCSSTEntityCreator >> newErrorStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newExtendStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSExtendStatement new
 ]
@@ -212,6 +239,7 @@ FASTSCSSTEntityCreator >> newExtendStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newFeatureName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSFeatureName new
 ]
@@ -219,6 +247,7 @@ FASTSCSSTEntityCreator >> newFeatureName [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newFeatureQuery [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSFeatureQuery new
 ]
@@ -226,6 +255,7 @@ FASTSCSSTEntityCreator >> newFeatureQuery [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newFloatValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSFloatValue new
 ]
@@ -233,6 +263,7 @@ FASTSCSSTEntityCreator >> newFloatValue [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newForStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSForStatement new
 ]
@@ -240,6 +271,7 @@ FASTSCSSTEntityCreator >> newForStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newForwardStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSForwardStatement new
 ]
@@ -247,6 +279,7 @@ FASTSCSSTEntityCreator >> newForwardStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newFrom [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSFrom new
 ]
@@ -254,6 +287,7 @@ FASTSCSSTEntityCreator >> newFrom [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newFunctionName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSFunctionName new
 ]
@@ -261,6 +295,7 @@ FASTSCSSTEntityCreator >> newFunctionName [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newFunctionStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSFunctionStatement new
 ]
@@ -268,6 +303,7 @@ FASTSCSSTEntityCreator >> newFunctionStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newGridValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSGridValue new
 ]
@@ -275,6 +311,7 @@ FASTSCSSTEntityCreator >> newGridValue [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newIdName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSIdName new
 ]
@@ -282,6 +319,7 @@ FASTSCSSTEntityCreator >> newIdName [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newIdSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSIdSelector new
 ]
@@ -289,6 +327,7 @@ FASTSCSSTEntityCreator >> newIdSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newIdentifier [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSIdentifier new
 ]
@@ -296,6 +335,7 @@ FASTSCSSTEntityCreator >> newIdentifier [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newIfStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSIfStatement new
 ]
@@ -303,6 +343,7 @@ FASTSCSSTEntityCreator >> newIfStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newImportStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSImportStatement new
 ]
@@ -310,6 +351,7 @@ FASTSCSSTEntityCreator >> newImportStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newImportant [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSImportant new
 ]
@@ -317,6 +359,7 @@ FASTSCSSTEntityCreator >> newImportant [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newIncludeStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSIncludeStatement new
 ]
@@ -324,6 +367,7 @@ FASTSCSSTEntityCreator >> newIncludeStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newIntegerValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSIntegerValue new
 ]
@@ -331,6 +375,7 @@ FASTSCSSTEntityCreator >> newIntegerValue [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newInterpolation [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSInterpolation new
 ]
@@ -338,6 +383,7 @@ FASTSCSSTEntityCreator >> newInterpolation [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newJsComment [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSJsComment new
 ]
@@ -345,6 +391,7 @@ FASTSCSSTEntityCreator >> newJsComment [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newKeyframeBlock [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSKeyframeBlock new
 ]
@@ -352,6 +399,7 @@ FASTSCSSTEntityCreator >> newKeyframeBlock [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newKeyframeBlockList [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSKeyframeBlockList new
 ]
@@ -359,6 +407,7 @@ FASTSCSSTEntityCreator >> newKeyframeBlockList [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newKeyframesName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSKeyframesName new
 ]
@@ -366,6 +415,7 @@ FASTSCSSTEntityCreator >> newKeyframesName [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newKeyframesStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSKeyframesStatement new
 ]
@@ -373,6 +423,7 @@ FASTSCSSTEntityCreator >> newKeyframesStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newKeywordQuery [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSKeywordQuery new
 ]
@@ -380,6 +431,7 @@ FASTSCSSTEntityCreator >> newKeywordQuery [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newListValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSListValue new
 ]
@@ -387,6 +439,7 @@ FASTSCSSTEntityCreator >> newListValue [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newMediaStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSMediaStatement new
 ]
@@ -394,6 +447,7 @@ FASTSCSSTEntityCreator >> newMediaStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newMixinStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSMixinStatement new
 ]
@@ -401,6 +455,7 @@ FASTSCSSTEntityCreator >> newMixinStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newNamespaceName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSNamespaceName new
 ]
@@ -408,6 +463,7 @@ FASTSCSSTEntityCreator >> newNamespaceName [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newNamespaceSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSNamespaceSelector new
 ]
@@ -415,6 +471,7 @@ FASTSCSSTEntityCreator >> newNamespaceSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newNamespaceStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSNamespaceStatement new
 ]
@@ -422,6 +479,7 @@ FASTSCSSTEntityCreator >> newNamespaceStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newNestingSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSNestingSelector new
 ]
@@ -429,6 +487,7 @@ FASTSCSSTEntityCreator >> newNestingSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newParameter [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSParameter new
 ]
@@ -436,6 +495,7 @@ FASTSCSSTEntityCreator >> newParameter [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newParameters [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSParameters new
 ]
@@ -443,6 +503,7 @@ FASTSCSSTEntityCreator >> newParameters [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newParenthesizedQuery [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSParenthesizedQuery new
 ]
@@ -450,6 +511,7 @@ FASTSCSSTEntityCreator >> newParenthesizedQuery [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newParenthesizedValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSParenthesizedValue new
 ]
@@ -457,6 +519,7 @@ FASTSCSSTEntityCreator >> newParenthesizedValue [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newPlaceholder [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSPlaceholder new
 ]
@@ -464,6 +527,7 @@ FASTSCSSTEntityCreator >> newPlaceholder [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newPlainValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSPlainValue new
 ]
@@ -471,6 +535,7 @@ FASTSCSSTEntityCreator >> newPlainValue [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newPostcssStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSPostcssStatement new
 ]
@@ -478,6 +543,7 @@ FASTSCSSTEntityCreator >> newPostcssStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newPropertyName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSPropertyName new
 ]
@@ -485,6 +551,7 @@ FASTSCSSTEntityCreator >> newPropertyName [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newPseudoClassSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSPseudoClassSelector new
 ]
@@ -492,6 +559,7 @@ FASTSCSSTEntityCreator >> newPseudoClassSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newPseudoElementSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSPseudoElementSelector new
 ]
@@ -499,6 +567,7 @@ FASTSCSSTEntityCreator >> newPseudoElementSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newReturnStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSReturnStatement new
 ]
@@ -506,6 +575,7 @@ FASTSCSSTEntityCreator >> newReturnStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newRuleSet [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSRuleSet new
 ]
@@ -513,6 +583,7 @@ FASTSCSSTEntityCreator >> newRuleSet [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newSelectorQuery [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSSelectorQuery new
 ]
@@ -520,6 +591,7 @@ FASTSCSSTEntityCreator >> newSelectorQuery [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newSelectors [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSSelectors new
 ]
@@ -527,6 +599,7 @@ FASTSCSSTEntityCreator >> newSelectors [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newSiblingSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSSiblingSelector new
 ]
@@ -534,6 +607,7 @@ FASTSCSSTEntityCreator >> newSiblingSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newStringValue [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSStringValue new
 ]
@@ -541,6 +615,7 @@ FASTSCSSTEntityCreator >> newStringValue [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newStylesheet [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSStylesheet new
 ]
@@ -548,6 +623,7 @@ FASTSCSSTEntityCreator >> newStylesheet [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newSupportsStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSSupportsStatement new
 ]
@@ -555,6 +631,7 @@ FASTSCSSTEntityCreator >> newSupportsStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newTagName [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSTagName new
 ]
@@ -562,6 +639,7 @@ FASTSCSSTEntityCreator >> newTagName [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newTo [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSTo new
 ]
@@ -569,6 +647,7 @@ FASTSCSSTEntityCreator >> newTo [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newUnaryQuery [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSUnaryQuery new
 ]
@@ -576,6 +655,7 @@ FASTSCSSTEntityCreator >> newUnaryQuery [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newUnit [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSUnit new
 ]
@@ -583,6 +663,7 @@ FASTSCSSTEntityCreator >> newUnit [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newUniversalSelector [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSUniversalSelector new
 ]
@@ -590,6 +671,7 @@ FASTSCSSTEntityCreator >> newUniversalSelector [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newUseStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSUseStatement new
 ]
@@ -597,6 +679,7 @@ FASTSCSSTEntityCreator >> newUseStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newVariable [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSVariable new
 ]
@@ -604,6 +687,7 @@ FASTSCSSTEntityCreator >> newVariable [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newWarnStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSWarnStatement new
 ]
@@ -611,6 +695,7 @@ FASTSCSSTEntityCreator >> newWarnStatement [
 { #category : 'entity creation' }
 FASTSCSSTEntityCreator >> newWhileStatement [
 
+	<ignoreForCoverage>
 	<generated>
 	^ self add: FASTSCSSWhileStatement new
 ]
