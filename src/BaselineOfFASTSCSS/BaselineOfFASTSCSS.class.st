@@ -56,8 +56,7 @@ BaselineOfFASTSCSS >> defineGroups: spec [
 
 	spec
 		group: 'core'
-		with: #( 'FAST-SCSS-Model' 
-			   'FAST-SCSS-Model-Generator' );
+		with: #( 'FAST-SCSS-Model' 'FAST-SCSS-Tests' 'FAST-SCSS-Model-Generator' );
 		group: 'tools' with: #( 'core' 'FAST-SCSS-Tools' )
 ]
 
@@ -68,7 +67,8 @@ BaselineOfFASTSCSS >> definePackages: spec [
 		package: 'FAST-SCSS-Model'
 		with: [ spec requires: #( 'FAST' ) ];
 		package: 'FAST-SCSS-Model-Generator'; 
-		package: 'FAST-SCSS-Tools'
+		package: 'FAST-SCSS-Tools';
+		package: 'FAST-SCSS-Tests'		
 		with: [ spec requires: #( 'TreeSitter' ) ].
 
 	"In case of no Famix loaded"
