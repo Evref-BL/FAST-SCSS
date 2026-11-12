@@ -8,6 +8,13 @@ Class {
 	#package : 'FAST-SCSS-Tools'
 }
 
+{ #category : 'accessing' }
+FASTSCSSImporter class >> extensions [
+	"File extensions without the dot that the importer handles"
+
+	^ #( 'scss' )
+]
+
 { #category : 'initialization' }
 FASTSCSSImporter >> deleteTreeSitterParser [
 	

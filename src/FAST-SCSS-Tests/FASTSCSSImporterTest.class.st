@@ -9367,6 +9367,13 @@ FASTSCSSImporterTest >> testGeneratedWhileStatements [
 };' withPlatformLineEndings
 ]
 
+{ #category : 'tests - importer API' }
+FASTSCSSImporterTest >> testHandlesItsExtensions [
+
+	self assert: (FASTSCSSImporter handlesFile: 'style.scss' asFileReference).
+	self deny: (FASTSCSSImporter handlesFile: 'style.css' asFileReference)
+]
+
 { #category : 'as yet unclassified' }
 FASTSCSSImporterTest >> topEntity [
 
