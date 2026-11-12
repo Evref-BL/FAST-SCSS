@@ -50,21 +50,3 @@ FASTSCSSStylesheet >> addChildrenNode: anObject [
 	<generated>
 	^ self childrenNodes add: anObject
 ]
-
-{ #category : 'accessing' }
-FASTSCSSStylesheet >> childrenNodes [
-	"Relation named: #childrenNodes type: #FASTSCSSEntity opposite: #stylesheetOwner"
-
-	<ignoreForCoverage>
-	<generated>
-	<derived>
-	^ childrenNodes
-]
-
-{ #category : 'accessing' }
-FASTSCSSStylesheet >> childrenNodes: anObject [
-
-	<ignoreForCoverage>
-	<generated>
-	childrenNodes value: anObject
-]
